@@ -1,4 +1,4 @@
-function [b,D]=gauss_naive(A,b)
+function [b,D]=gauss_elimination(A,b)
 % gauss_naive : naive Gauss elimination without pivoting
 %    x=gauss_naive(A,b)
 %    A : coefficient matrix
